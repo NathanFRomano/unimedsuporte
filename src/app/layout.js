@@ -19,8 +19,16 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <Head>
+        <link rel="preload" as="image" href="/public/unimed.jpg" />
+      </Head>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-cover bg-center`}
+        style={{ 
+          backgroundImage: "url('/public/unimed.jpg')",
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+        }}
       >
         {children}
       </body>
