@@ -9,8 +9,8 @@ const files = [
   { name: "Drive Leitura Biométrica | FS-80 'preta'", file: "/Leitor Biometrico FS-80.zip" },
   { name: "Drive Leitura Biométrica | 4000B 'prata'", file: "/Leitor Biometrico 4000B.zip" },
   { name: "Download Firefox", file: "/Firefox47.exe" },
-  { name: "Download Java 8u421 - 32bits", file: "/java-8u421-windows-i586.exe" },
-  { name: "Download Java 8u231 - 32bits 'antigo'", file: "/java-8u231-windows-i586.exe" },
+  { name: "Download Java 8u421 - 32bits", file: "/jre-8u421-windows-i586.exe" },
+  { name: "Download Java 8u231 - 32bits 'antigo'", file: "/jre-8u231-windows-i586.exe" },
   { name: "Script de Configuração Firefox", file: "/config.ps1" },
 ];
 
